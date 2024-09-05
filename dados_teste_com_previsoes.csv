@@ -1,2 +1,2 @@
 Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Property_Area,Loan_Status_Predicted
-0,1,1,1,1,1,0,1,360,2,0
+0,0,0,0,1,1000,1555,10000,36,0,0
