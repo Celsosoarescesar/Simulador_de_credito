@@ -9,7 +9,7 @@ import locale
 
 # Cálculo de métricas
 def calc_display_basic_metrics(data, location=st):
-	locale.setlocale(locale.LC_ALL,'en_US.UTF-8')
+	locale.setlocale(locale.LC_ALL,'')
 	const.spacer('title')
 	formatted_amount = locale.format_string("%.2f", data.LoanAmount, grouping=True)
 	location.subheader(f'Valor do Empréstimo: R$ {formatted_amount}')
