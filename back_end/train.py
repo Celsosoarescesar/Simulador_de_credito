@@ -138,7 +138,7 @@ def train_model(data):
    data_df = pd.DataFrame(data_df)
 
    # dados de treino
-   data_train = pd.read_csv('https://docs.google.com/spreadsheets/d/1oIoBvLhkCuyQ84IAMLrXDKJGNF5NssKii4epikgmguM/edit?usp=sharing')
+   data_train = pd.read_csv('back_end/loan_data.csv')
 
    # dados de validação
    #data_val = pd.read_csv('https://drive.google.com/uc?id=18dY8nfISSjm0ODCDywqwGZxpj_YHl_vx&export=download')
